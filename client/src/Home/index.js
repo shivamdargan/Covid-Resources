@@ -94,15 +94,15 @@ function Home(){
             <div className="container d-flex justify-content-between align-items-center">
 
             <div className="logo">
-                <a href="index.html"><img src={logo2} alt="" className="img-fluid"/></a>
+                <a href="/home"><img src={logo2} alt="" className="img-fluid"/></a>
             </div>
 
             <nav id="navbar" className="navbar">
                 <ul>
-                <li><a className="active " href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="team.html">Team</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a className="active" href="/home">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/team">Team</a></li>
+                <li><a href="/contact">Contact Us</a></li>
                 </ul>
                 <i className="bi bi-list mobile-nav-toggle"></i>
             </nav>
@@ -117,7 +117,7 @@ function Home(){
                 <h2 className="animate__animated animate__fadeInDown">Welcome to <span>Covi-Res</span></h2>
                 <p className="animate__animated animate__fadeInUp">State Of The Art Covid resources Verified Directory Presented
                   To You</p>
-                <a href="contact.html" className="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+                <a href="/about" className="btn-get-started animate__animated animate__fadeInUp">Read More</a>
               </div>
             </div>
           </div>
